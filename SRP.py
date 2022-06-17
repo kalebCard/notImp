@@ -30,5 +30,5 @@ for i in pt:
 #csvSave
 df = pd.DataFrame({'Nombre':equipos,'Puntos':puntos}, index=list(range(1,21)))
 df.to_csv('Clasificacion.csv', index=False)
-print("Lista CSV generada")
+print("Lista CSV guardada")
 print (df)
